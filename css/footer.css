@@ -1,0 +1,33 @@
+footer{
+    background-color:black;
+    padding-top: 20px;
+}
+
+.footer_display1 {
+    display: flex;
+    justify-content:space-around;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 14px;
+    font-size: 20px;   
+}
+
+.footer_direcionaveiscontato {
+    padding-top: 10px;
+}
+
+.footer_redirecionaveistitulo {
+    font-size: 30px;
+}
+
+.footer_direcionaveisindividual {
+    padding-top: 10px;
+}
+
+.footer_botao:hover {
+    color: blueviolet;
+    transition: 0.5s;
+}
