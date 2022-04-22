@@ -1,21 +1,17 @@
-html {
-    text-align:justify;
+main {
+    background: linear-gradient(#000000, #2b2b2b);
+    background-blend-mode: multiply;
+    height: 100%;
 }
 
 .main_felipeterno {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 
 .main_parte1 {
     display: flex;
     justify-content:space-around;
-}
-
-
-.main_textobruto {
-    margin-right: 40px;
-
 }
 
 .main_h1 {
@@ -26,8 +22,6 @@ html {
 .main_parte2 {
     display: flex;
     justify-content:center;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 
 .main_h1 {
@@ -38,13 +32,8 @@ html {
     font-size: 60px;
 }
 
-p {
-    text-align: justify;
-}
-
 .main_titulohab {
     font-size: 60px;
-    margin-bottom: 30px;
 }
 
 .main_boxhabilidades {
@@ -52,16 +41,31 @@ p {
     flex-wrap: wrap;
     align-items:stretch;
     gap:30px;
-    margin-left:50px;
-    margin-right:50px;
-    margin-top: 40px;
 }
 
 .main_boxhabilidades > div {
     flex:1 1 500px;
+    margin-bottom: 2%;
+}
 
+#habilidades {
+    margin-bottom: 2%;
 }
 
 .main_titulohabilidades {
     text-align: center;
+}
+
+.main_display1 {
+    margin-bottom: 3%;
+}
+
+.main_textobruto {
+    margin-right: 3%;
+}
+
+@media (max-width:1100px){
+    .main_felipeterno{
+        display: none;
+    }
 }

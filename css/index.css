@@ -2,6 +2,7 @@
     font-family: 'Pathway Gothic One', sans-serif;
     color: white;
     text-decoration: none;
+    list-style: none;
     text-align:left;
     padding: 0px;
     margin: 0px;
@@ -9,10 +10,11 @@
     font-size: 24px;
 }
 
-body {
-    background: linear-gradient(#000000, #2b2b2b);
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-size: 100%;
+html {
     scroll-behavior: smooth;
-}   
+}
+
+.main_main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
