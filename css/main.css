@@ -1,71 +1,128 @@
-main {
-    background: linear-gradient(#000000, #2b2b2b);
-    background-blend-mode: multiply;
-    height: 100%;
-}
-
 .main_felipeterno {
-    width: 400px;
-    height: 400px;
-}
-
-.main_parte1 {
-    display: flex;
-    justify-content:space-around;
+    width: 43rem;
+    height: 43rem;
 }
 
 .main_h1 {
     text-align: center;
-    
+    font-size: 10rem;
+
+    padding-bottom: 3rem;
 }
 
-.main_parte2 {
+.main_display2 {
     display: flex;
     justify-content:center;
-}
 
-.main_h1 {
-    font-size: 100px;
+    padding-top: 3rem;
+    padding-inline: 14rem;
 }
 
 .main_h2 {
-    font-size: 60px;
-}
-
-.main_titulohab {
-    font-size: 60px;
-}
-
-.main_boxhabilidades {
-    display: flex;
-    flex-wrap: wrap;
-    align-items:stretch;
-    gap:30px;
-}
-
-.main_boxhabilidades > div {
-    flex:1 1 500px;
-    margin-bottom: 2%;
-}
-
-#habilidades {
-    margin-bottom: 2%;
-}
-
-.main_titulohabilidades {
-    text-align: center;
-}
-
-.main_display1 {
-    margin-bottom: 3%;
+    font-size: 7rem;
+    padding-bottom: 1.5rem;
 }
 
 .main_textobruto {
-    margin-right: 3%;
+    padding-right: 5rem;
 }
 
-@media (max-width:1100px){
+.main_titulohab {
+    font-size: 6rem;
+}
+
+.main_boxhabilidades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding-inline: 14rem;
+
+    gap:5.5rem;
+}
+
+.main_titulohabilidades {
+    font-size: 3rem;
+    text-align: center;
+
+    padding-bottom: .6rem;
+}
+ 
+.partemain_1 {
+    background:#1f1f1f;
+
+    padding-block: 7rem;
+}
+
+.partemain_2 {
+    background-color: #FCFCFC;
+
+    padding-block: 7rem;
+}
+
+.main_titulohabilidades {
+    color: #2c2c2c;
+
+}
+
+.main_phabilidades {
+    color: #4B4B4B;
+
+    text-align: center;
+
+}
+
+.main_h1habilidades {
+    text-align: center;
+
+    color: #2c2c2c;
+    font-size: 10rem;
+    text-shadow: 3px 5px 10px rgb(167, 167, 167);
+
+    padding-bottom: 3.5rem;
+
+}
+
+.box {
+    border:solid 2px rgb(48, 48, 48);
+    border-style: ridge;
+    box-shadow: 3px 5px 10px 4px rgb(167, 167, 167);
+
+    padding: 2rem;
+}
+
+@media (max-width:1170px){
     .main_felipeterno{
         display: none;
     }
+
+    .main_textobruto{
+        padding-right: 0;
+    }
+
+    .main_boxhabilidades {
+        padding-inline: 3rem;
+    }
+
+}
+
+
+@media (max-width:768px){
+
+    .main_boxhabilidades {
+        grid-template-columns: repeat(1, 1fr);
+
+        padding-inline: 5rem;
+    }
+
+    .main_display2 {
+        padding-inline: 5rem;
+    }
+
+    .main_h2 {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    
+
 }
