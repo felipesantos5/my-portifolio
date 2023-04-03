@@ -1,14 +1,18 @@
 .header_display {
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-    background-color:#141414;
-    
-    padding-block: 1.5rem;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #141414;
+
+  padding-block: 1.5rem;
 }
 
 .header_list {
-    display: flex;
-    gap:3rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.header_display a:hover {
+  color: blueviolet;
+  transition: 0.6s;
 }
